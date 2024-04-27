@@ -54,6 +54,17 @@ body{
     animation-range: entry 25% cover 50%;
 }
 
+.presentacion2{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+}
+
 a.boton {
     background-color: #ffffff;
     text-align: center;
@@ -122,6 +133,13 @@ p.textofooter {
 
 .presentacion{
     background-image: url(items/presentacion.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.presentacion2{
+    background-image: url(items/outlet.jpg);
     background-size: cover;
     width: 100%;
 
