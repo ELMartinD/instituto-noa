@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background: burlywood;
+}
+
 
 
 @keyframes show {
@@ -74,7 +78,7 @@ a.boton:hover{
 
 .footer {
     display: flex;
-    background-color: white;
+    background: burlywood;
     justify-items: center;
     display: flex;
     flex-direction: row;
@@ -227,7 +231,7 @@ h1.textoinicio:hover{
 
 .tarjetapadre {
     display: inline-flex;
-    background-color: #ff8a00b5;
+    background-color: sandybrown;
     justify-items: center;
     justify-content: space-evenly;
     flex-direction: row;
@@ -324,7 +328,7 @@ img.producto:hover{
 
     .tarjetapadre {
         display: inline-flex;
-        background-color: #ff8a00b5;
+        background-color: sandybrown;
         justify-items: center;
         justify-content: space-evenly;
         flex-direction: row;
