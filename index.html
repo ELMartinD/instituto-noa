@@ -2,292 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="img/Captura.PNG">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noarchive">
-    <title>CINE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Signika+Negative:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Galería de Perros</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <div class="menu">
-        <li class="hijo">
-            <a href="" class="border">Inicio</a>
-            <a href="" class="border">Galeria</a>
-            <a href="" class="border">Informacion</a>
-            <a href="" class="border">Contacto</a>
-        </li>
-    </div>
-
-
-    <div class="portada" id="portadacl">
-        <div id="portadaimgcl" class="portadaimg">
-            <img class="animacion" src="img/desliazar1.png" alt="">
-            <img class="animated" src="img/gar.gif" alt="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Perros Felices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="portadaimgcl" class="portadaimg">
-            <img class="animacion" src="img/desliazar3.png" alt="">
-            <img class="animated" src="img/pool.gif" alt="">
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bienvenido a la Galería de Perros</h1>
+            <p class="lead">Descubre las mejores imágenes de nuestros amigos peludos</p>
         </div>
-        <div  id="portadaimgcl" class="portadaimg">
-            <img class="animacion" src="img/desliazar2.png" alt="">
-            <img class="animated" src="img/monja.gif" alt="">
-        </div>
-    </div>
+    </header>
 
-    <h1 class="estrenotxt">peliculas estreno</h1>
-
-    <div class="galeriamoderna galeriamodernacl">
-
-
-        <div class="galeriamodernaimg galeriamodernaimgcl" id="g1">
-            <h1 id="presentaciontexto" class="peliculatexto">Oppenheimer</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 3D</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="galeriamodernaimg galeriamodernaimgcl" id="g2">
-            <h1 id="presentaciontexto" class="peliculatexto">Jocker 2</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="galeriamodernaimg galeriamodernaimgcl" id="g3">
-            <h1 id="presentaciontexto" class="peliculatexto">Juegos del hambre</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 3D</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-    </div>
-
-
-
-    <div class="galeriaimg">
-
-        <h1 id="carteleracl" class="cartelera">Cartelera</h1>
-
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimggcl" class="peliculasimgg" src="/img/boca.png" alt="">
-            <img id="peliculasimgggcl" class="peliculasimggg" src="img/5012504.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg" onmouseout="this.src='https://64.media.tumblr.com/bd0f876c7763f43a0272f413adad48a3/e86994e6e0211cb3-c7/s400x600/09a038e52275ff4d835e305f858dd6c28fa423f0.jpg'" alt="">
-            <h1 class="peliculatexto">Planeta de los simios</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-
-        </div>
-        
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimgcl" class="peliculasimg" src="img/0017774.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg" alt="">
-            <h1 class="peliculatexto">Una mujer italiana</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-
-        </div>
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimgcl" class="peliculasimg" src="img/0517246.webp" alt="">
-            <h1 class="peliculatexto">Guardianes de Dragones</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-
-        </div>
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimgcl" class="peliculasimg" src="img/2625940.webp" alt="">
-            <h1 class="peliculatexto">Immaculate</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-
-        </div>
-
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimgcl" class="peliculasimg" src="img/5859373.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg" alt="">
-            <h1 class="peliculatexto">Especialista</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="peliculas" id="peliculascl">
-            <img id="peliculasimgcl" class="peliculasimg" src="img/4648992.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg" alt="">
-            <h1 class="peliculatexto">Hasta el fin del mundo</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-        
-    </div>
-
-    <h1 class="destacadastxt">peliculas destacadas</h1>
-
-    <div class="presentacion" id="presentacioncl">
-
-        <div class="presentaciones" id="uno">
-            <h1 id="presentaciontexto" class="peliculatexto">Jocker</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="presentaciones presentacionescl" id="dos">
-            <h1  id="presentaciontexto" class="peliculatexto">Venom</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="presentaciones presentacionescl" id="tres">
-            <h1 id="presentaciontexto" class="peliculatexto">Avatar 2</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-            
-        </div>
-
-        <div class="presentaciones presentacionescl" id="cuatro">
-            <h1 id="presentaciontexto" class="peliculatexto">US</h1>
-            <button id="botonpeliculacl" class="botonpelicula">Cast 2d</button>
-            <button id="botonpeliculacl" class="botonpelicula">Subtitulada</button>
-        </div>
-    </div>
-
-
-
-
-
-
-    <!--Parte de Lean-->
-
-
-
-
-    <div class="sobrenosotros">
-        <div>
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="">
-        </div>
-        <div>
-            <h2 class="descrip1">Disfruta donde quieras! Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</h2>
-            <p></p>
-        </div>
-    </div>
-    
-    <div class="descarga">
-        <div>
-            <img src="https://i.blogs.es/a7197d/netflix/1366_2000.webp" alt="">
-        </div>
-        <div>
-            <h3 class="descrip2">Descarga tus series y peliculas favoritas, y Disfrutalas donde quieras.</h3>
-            <p></p>
-        </div>
-    </div>
-
-    <div class="favoritas">
-        <div class="imagen1">
-            <img src="https://media.c5n.com/p/f3240cb246db2f6c52c5d29f6f4aa4b2/adjuntos/326/imagenes/000/050/0000050545/790x0/smart/netflix-catalogo.jpg" alt="" id="imagen12">
-        </div>
-        <div class="texto1">
-            <h4 id="descrip3">TENEMOS TUS PELÍCULAS Y SERIES
-            Disfruta de los últimos estrenos directo del 
-            cine y tus series favoritas con los personajes que amas</h4>
-            <p></p>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div id="abueloContacto"> <!--CAJA PRINCIPAL-->
-        <section class="secciontextoContacto">
-            <!--TEXTO QUE VA ARRIBA DEL FORMULARIO-->
-            <h1 id="hunoContacto">DEJANOS TU MENSAJE</h1>
-            <p id="primerparrafoContacto">Cualquier duda o queja que tenga, dejela aqui</p> 
-            <p id="segundoparrafoContacto">*indica un campo obligatorio</p> 
-        </section>
-        <div class="padreContacto">
-            <!--COMIENZO DEL FORMULARIO-->
-            <form action="" class="formularioContacto">
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Nombre*</label> 
-                    <input type="text" required minlength="3" maxlength="15" class="inputContacto"> 
+    <!-- Galería -->
+    <section id="galeria" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Galería de Imágenes</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://placedog.net/400/300" class="card-img-top" alt="Perro 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Perro Feliz</h5>
+                            <p class="card-text">Un hermoso perro disfrutando del sol.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Ver más</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Apellido</label> 
-                    <input type="text" minlength="8" maxlength="20" class="inputContacto">
+                <!-- Modal 1 -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Perro Feliz</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://placedog.net/600/400" class="img-fluid" alt="Perro 1">
+                                <p class="mt-3">Un hermoso perro disfrutando de un día soleado en el parque.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Email*</label> 
-                    <input type="email" required maxlength="50" class="inputContacto">
+                <!-- Repetir para más perros -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://placedog.net/401/300" class="card-img-top" alt="Perro 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Perro Juguetón</h5>
+                            <p class="card-text">Listo para jugar con su pelota favorita.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Ver más</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Confirme su email*</label> 
-                    <input type="email" required maxlength="50" class="inputContacto">
+                <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Perro Juguetón</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://placedog.net/601/400" class="img-fluid" alt="Perro 2">
+                                <p class="mt-3">Este perro no puede esperar para jugar contigo.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Telefono</label> 
-                    <input type="text" class="inputContacto"> 
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://placedog.net/402/300" class="card-img-top" alt="Perro 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Perro Dormilón</h5>
+                            <p class="card-text">Nada como una buena siesta después de jugar.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Ver más</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Por favor, cuentanos de que provincia eres</label>
-                    <select class="provinciasContacto" required>
-                        <option value="" id="letrasContacto">Buenos Aires</option>
-                        <option value="" id="letrasContacto">Ciudad Autónoma de Buenos Aires</option>
-                        <option value="" id="letrasContacto">Catamarca</option>
-                        <option value="" id="letrasContacto">Chaco</option>
-                        <option value="" id="letrasContacto">Chubut</option>
-                        <option value="" id="letrasContacto">Córdoba</option>
-                        <option value="" id="letrasContacto">Corrientes</option>
-                        <option value="" id="letrasContacto">Entre Ríos</option>
-                        <option value="" id="letrasContacto">Formosa</option>
-                        <option value="" id="letrasContacto">Jujuy</option>
-                        <option value="" id="letrasContacto">La Pampa</option>
-                        <option value="" id="letrasContacto">La Rioja</option>
-                        <option value="" id="letrasContacto">Mendoza</option>
-                        <option value="" id="letrasContacto">Misiones</option>
-                        <option value="" id="letrasContacto">Neuquén</option>
-                        <option value="" id="letrasContacto">Río Negro</option>
-                        <option value="" id="letrasContacto">Salta</option>
-                        <option value="" id="letrasContacto">San Juan</option>
-                        <option value="" id="letrasContacto">San Luis</option>
-                        <option value="" id="letrasContacto">Santa Cruz</option>
-                        <option value="" id="letrasContacto">Santa Fe</option>
-                        <option value="" id="letrasContacto">Santiago del Estero</option>
-                        <option value="" id="letrasContacto">Tierra del Fuego</option>
-                        <option value="" id="letrasContacto">Tucumán</option>
-                    </select>
+                <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Perro Dormilón</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://placedog.net/602/400" class="img-fluid" alt="Perro 3">
+                                <p class="mt-3">El mejor descanso después de un día lleno de aventuras.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="cajasContacto">
-                    <label for="" id="letrasContacto">Caja de mensajes</label> 
-                    <textarea cols="30" rows="10" placeholder="Ingresa tu mensaje..." class="inputContacto"></textarea>
-                </div>
-                <button class="btnContacto">Enviar</button>
-            </form> <br> 
-            <!--FINAL DEL FORMULARIO-->
+            </div>
         </div>
-    </div> <!--FIN DE LA CAJA PRINCIPAL-->
-    
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Perros Felices. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
