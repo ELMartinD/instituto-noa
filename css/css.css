@@ -1,0 +1,499 @@
+@media (max-width:1980px) {
+
+    .nav-1 {
+        width: 39%;
+        margin: auto;
+        margin-left: 4%;
+    }
+    
+}
+
+
+
+*{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.body{
+    background-image: url(/img/black-friday-1-2048x1024-1.webp);
+}
+
+a{
+    text-decoration: none;
+    color: #7a7a7a;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #ff7615;
+}
+
+.navegacion{
+    width: 96%;
+    display: flex;
+    align-items: center;
+    height: 71px;
+    padding: 16px;
+    
+}
+
+.nav-1{
+    width: 31%;
+    margin: auto;
+    margin-left: 4%;
+}
+
+.nav-2 {
+    width: 69%;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+
+.btn-virtual{
+    background-color: #ff7615;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.img-fondo{
+    width: 100%;
+    height: 750px;
+    background-image: url(/img/Sin\ título.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: #d96102;
+}
+
+.btn-cursos{
+    display: flex;
+    align-items: center;
+}
+
+.txt{
+    width: 634.438px;
+    height: 222.562px;
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.contenedor-inicio{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.btn-cursos{
+    padding: 12px 35px;
+    margin-top: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: #ff7615;
+    transition: 0.3s;
+}
+
+.btn-cursos:hover{
+    background-color: #ff7615;
+    color: white;
+}
+
+.contenedor-2{
+    width: 100%;
+    height: 200px;
+    background: url(https://institutonoa.com.ar/wp-content/uploads/2021/04/instituto_noa_placa_04.png);
+    background-position: -9px -753px;
+    background-color: #ff7615;
+    mix-blend-mode: multiply;
+    margin-bottom: 200px;
+}
+
+.text-contenedor {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+
+
+.txt-center{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.cajas-3{
+    width: 85%;
+    display: flex;
+    gap: 40px;
+    margin: auto;
+
+}
+
+.caja1{
+    background-color: white;
+    padding: 40px 80px;
+    border-radius: 5px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja2{
+    background-color: white;
+    padding: 40px 80px;
+    border-radius: 5px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja3{
+    background-color: white;
+    padding: 40px 80px;
+    border-radius: 5px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.txt-2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #363434;
+
+}
+
+.txt-center-black{
+    color: #363434;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Contenedor principal del carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  /* Contenedor de las imágenes */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+
+  /* Cada slide */
+  .carousel-item {
+    flex: 0 0 33.333%; /* Cada imagen ocupa un tercio del ancho total */
+    position: relative;
+    height: 100%;
+  }
+
+  /* Imagen de cada slide */
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Título abajo a la izquierda */
+  .carousel-caption-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: WHITE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+  /* Categoría arriba a la derecha */
+  .category-label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #ff7615;
+    color: white;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+
+  /* Botones de control */
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .carousel-control.prev {
+    left: 10px;
+  }
+
+  .carousel-control.next {
+    right: 10px;
+  }
+
+
+  .linear-gradient{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+
+  .linear-gradient-2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+
+  .linear-gradient-3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+
+  .linear-gradient-4{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+
+  .linear-gradient-5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+
+  .linear-gradient-6{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+  }
+  
+
+
+  .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #332F2F;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+  }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: white;
+    }
+
+    .form-group input, .form-group select, .form-group textarea {
+      width: 95%;
+      padding: 6px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+      transition: border-color 0.3s ease;
+  }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: #007bff;
+    }
+
+    .form-group textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .form-group .error {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .form-group select {
+      background-color: #fff;
+    }
+
+    .btn-submit {
+      padding: 10px;
+      font-size: 16px;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+
+    select#provincia {
+      width: 100%;
+  }
+
+  .form-group select {
+    background-color: #fff;
+    width: 100%;
+}
+
+button.btn-submit {
+  width: 38%;
+  padding: 15px;
+  background-color: #ff7615;
+}
+
+button.btn-submit:hover{
+  background-color: #655C57;
+}
+
+
+footer {
+  background: url(https://institutonoa.com.ar/wp-content/uploads/2021/04/instituto_noa_placa_04.png);
+  background-color: #363434;
+  background-position: -264px 381px;
+  background-size: cover;
+  padding: 20px 10%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex: 2 1 400px;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #f5ba41; /* Color de los títulos */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #f5ba41; /* Color en hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+
+/* Botón de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366; /* Color de WhatsApp */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button img {
+  width: 35px;
+  height: 35px;
+}
+

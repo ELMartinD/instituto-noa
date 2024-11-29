@@ -3,134 +3,681 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Perros</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Perros Felices</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
+
+    <nav class="navegacion">
+        <div class="nav-1">
+          <img src="img/cropped-cropped-Logo-Covid-NOA-140x79-1-126x71.png" alt="Logo">
+        </div>
+        <div class="menu-toggle">☰</div>
+        <div class="nav-2">
+          <a class="boton-nav" style="color: #ff7615;" href="">Home</a>
+          <a class="boton-nav" href="">El Instituto</a>
+          <a class="boton-nav" href="">Cursos</a>
+          <a class="boton-nav" href="">Sedes</a>
+          <a class="boton-nav" href="">Trabajá con nosotros</a>
+          <a class="boton-nav" href="">Contacto</a>
+          <button class="btn-virtual">Aula Virtual</button>
+        </div>
+      </nav>
+
+    <div class="img-fondo">
+        <div class="contenedor-inicio">
+            <div class="texto">
+                <h1 class="txt">Capacitate en las áreas con más demanda en el mercado laboral</h1>
+            </div>
+
+            <div>
+                <button class="btn-cursos"><i aria-hidden="true" class="fas fa-angle-right"></i>Ver Todos Los Cursos</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contenedor-2">
+
+        <div class="text-contenedor">
+            <h1 class="txt-center">Modalidades disponibles</h1>
+        </div>
+
+        <div class="cajas-3">
+
+            <div class="caja1">
+                <img src="img/modalidad_presencial-150x150.png" alt="">
+                <h1 class="txt-2">PRESENCIAL</h1>
+            </div>
+            <div class="caja2">
+                <img src="img/modalidad_semipresencial-150x150.png" alt="">
+                <h1 class="txt-2">SEMIPRESENCIAL</h1>
+
+            </div>
+            <div class="caja3">
+                <img src="img/modalidad_presencial-150x150.png" alt="">
+                <h1 class="txt-2">DISTANCIA</h1>
+
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+    <div class="contenedor-3">
+
+        <div class="subcontenedor-1">
+            <h1 class="txt-center-black">Cursos destacados</h1>
+        </div>
+
+        <div class="subcontenedor-2">
+        </div>
+
+        <div class="subcontenedor-3">
+            <p class="p-text">Encontrá el curso que estás buscando</p>
+        </div>
+
+    </div>
+
+    <div class="contenedor-4">
+
+        <div class="carousel">
+            <!-- Contenedor de los slides -->
+            <div class="carousel-track">
+              <div class="carousel-item">
+                <img class="linear-gradient">
+                <div class="category-label">AREA OFICIOS DIGITALES</div>
+                <div class="carousel-caption-bottom">MARKETING DIGITAL</div>
+              </div>
+              <div class="carousel-item">
+                <img class="linear-gradient-2">
+                <div class="category-label">Categoría 2</div>
+                <div class="carousel-caption-bottom">Título de la Imagen 2</div>
+              </div>
+              <div class="carousel-item">
+                <img class="linear-gradient-3">
+                <div class="category-label">Categoría 3</div>
+                <div class="carousel-caption-bottom">Título de la Imagen 3</div>
+              </div>
+              <div class="carousel-item">
+                <img class="linear-gradient-4">
+                <div class="category-label">Categoría 4</div>
+                <div class="carousel-caption-bottom">Título de la Imagen 4</div>
+              </div>
+              <div class="carousel-item">
+                <img class="linear-gradient-5">
+                <div class="category-label">Categoría 5</div>
+                <div class="carousel-caption-bottom">Título de la Imagen 5</div>
+              </div>
+              <div class="carousel-item">
+                <img class="linear-gradient-6">
+                <div class="category-label">Categoría 6</div>
+                <div class="carousel-caption-bottom">Título de la Imagen 6</div>
+              </div>
+            </div>
+            <!-- Botones de control -->
+            <button class="carousel-control prev">❮</button>
+            <button class="carousel-control next">❯</button>
+          </div>
+
+    </div>
+
+    <div class="contenedor-5">
+
+        <div class="gap-1">
+            <div class="subcontenedor-1-1">
+                <h1 class="txt-center">Cursos destacados</h1>
+            </div>
+    
+            <div class="subcontenedor-2-2">
+            </div>
+    
+            <div class="subcontenedor-3-3">
+                <p class="p-text-w">Y si aún no encontraste tu curso favorito, podés buscarlo por nuestras áreas disponible.</p>
+            </div>
+        </div>
+
+        <div class="contenedor-carreras">
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contenedor-carreras">
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contenedor-carreras">
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+            <div class="carreras">
+
+                <div class="carreras-titulo">
+                    <img style="width: 111px;" src="img/area_informatica-150x150.png" alt="">
+                    <h1 class="txt-carrera">ÁREA INFORMATICA</h1>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+                <div style="padding-left: 20px; margin-top: 10px;">
+                    <i aria-hidden="true" class="fas fa-chevron-circle-right" style="color: #fff; padding: 0 10px 0 0; font-size: 19px"></i>
+                    <a class="a-text" href="">OPERADOR DE PC</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contenedor-6">
+
+        <div class="gap-1">
+            <div class="subcontenedor-1-1">
+                <h1 class="txt-center-black">Por qué elegirnos</h1>
+            </div>
+    
+            <div class="subcontenedor-2">
+            </div>
+    
+            <div class="subcontenedor-3-3">
+                <p class="p-text-w">Y si aún no encontraste tu curso favorito, podés buscarlo por nuestras áreas disponible.</p>
+            </div>
+        </div>
+
+        <div class="contenedor-porque">
+            <div class="subcontenedor-porque">
+
+                <i aria-hidden="true" class="fas fa-star" style="text-align: center; color: #ff7615; padding: 0 20px 0 0; font-size: 50px;"></i>
+
+
+                <h1 class="txt-center-black-2">Capacitación que te sirve</h1>
+
+                <p>Los contenidos se desarrollan en base a estudios e investigaciones sobre las necesidades del medio actual y la comunidad. Para lo que aprendas tenga una rápida salida laboral. Envíanos un Mensaje!</p>
+
+            </div>
+
+            <div class="subcontenedor-porque">
+
+                <i aria-hidden="true" class="fas fa-list" style="text-align: center; font-size: 40px; color: #ff7615;"></i>
+
+                <h1 class="txt-center-black-2">Variedad de opciones</h1>
+
+                <p>Ofrecemos muchas oportunidades de capacitación y formación, es muy amplia la variedad de cursos que brindamos, permitiendo elegir el que más se ajusta a las necesidades y al nivel educacional.</p>
+
+            </div>
+
+            <div class="subcontenedor-porque">
+
+                <i aria-hidden="true" class="fas fa-user-graduate" style="text-align: center; font-size: 40px; color: #ff7615;"></i>
+
+
+                <h1 class="txt-center-black-2">Excelencia en lo aprendido</h1>
+
+                <p>La Certificación de Validez Nacional y nuestros docentes reconocidos y de amplia trayectoria, te formarán de manera profesional.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contenedor-7">
+
+        <div class="contenedor-form">
+
+            <div class="formcontenedor-1">
+
+                <div class="form-text">
+
+                    <h1 class="f1">Consultá por todos los cursos disponibles</h1>
+    
+                </div>
+    
+                <div class="form-text">
+
+                    <h1 class="f2">Completá el formulario con tus datos y un asesor se contactará con vos a la brevedad.</h1>
+    
+                </div>
+    
+                <div class="form-text">
+
+                    <h1 class="f3">Nuestra especialidad es la Formación Laboral para los puestos que las empresas necesitan. Elige tu sector, ¡Estás a un paso de comenzar a trabajar en lo que más te gusta!</h1>
+    
+                </div>
+    
+            </div>
+    
+            <div class="formcontenedor-2">
+    
+                <div class="form-container">
+                    <form action="#" method="POST">
+                      <!-- Nombre Completo -->
+                      <div class="form-group">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre completo">
+                      </div>
+                
+                      <!-- Correo Electrónico -->
+                      <div class="form-group">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+                      </div>
+                
+                      <!-- Teléfono -->
+                      <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="Ingresa tu número de teléfono">
+                      </div>
+                
+                      <!-- Seleccionar Provincia -->
+                      <div class="form-group">
+                        <label for="provincia">Seleccionar Provincia *</label>
+                        <select id="provincia" name="provincia" required>
+                          <option value="">—Por favor, elige una opción—</option>
+                          <option value="Buenos Aires">Buenos Aires</option>
+                          <option value="Córdoba">Córdoba</option>
+                          <option value="Santa Fe">Santa Fe</option>
+                          <option value="Mendoza">Mendoza</option>
+                          <option value="Tucumán">Tucumán</option>
+                          <!-- Agrega más provincias si es necesario -->
+                        </select>
+                      </div>
+                
+                      <!-- Seleccionar Área de interés -->
+                      <div class="form-group">
+                        <label for="area">Seleccionar Área de interés *</label>
+                        <select id="area" name="area" required>
+                          <option value="">—Por favor, elige una opción—</option>
+                          <option value="Tecnología">Tecnología</option>
+                          <option value="Marketing">Marketing</option>
+                          <option value="Educación">Educación</option>
+                          <option value="Diseño">Diseño</option>
+                          <!-- Agrega más áreas si es necesario -->
+                        </select>
+                      </div>
+                
+                      <!-- Consulta -->
+                      <div class="form-group">
+                        <label for="consulta">Tu consulta</label>
+                        <textarea id="consulta" name="consulta" placeholder="Me interesa el curso de..."></textarea>
+                      </div>
+                
+                      <!-- Botón Enviar -->
+                      <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                  </div>
+    
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+          <!-- Logo -->
+          <div class="footer-logo">
+            <img src="img/cropped-logo_noa-300x265.png" alt="Logo Instituto NOA">
+          </div>
+
+          <div style="display: flex; flex-direction: column;">
+
+            <!-- Enlaces -->
+          <div class="footer-columns">
+            <div class="footer-column">
+              <h3>Navegación</h3>
+              <ul>
+                <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Inicio</a></li>
+                <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Cursos</a></li>
+                <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Contacto</a></li>
+                <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Sobre Nosotros</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Áreas disponibles</h3>
+                <ul>
+                  <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Area Digital</a></li>
+                  <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Area Informatica</a></li>
+                  <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Area Cyberseguridad</a></li>
+                  <li><i aria-hidden="true" class="fas fa-angle-right" style="color: #ff7615; padding-right: 5px;"></i><a href="#">Programacion</a></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
+              </div>
+            <div class="footer-column">
+              <h3>Seguinos</h3>
+              <div class="redesociales">
 
-    <!-- Header -->
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1>Bienvenido a la Galería de Perros</h1>
-            <p class="lead">Descubre las mejores imágenes de nuestros amigos peludos</p>
-        </div>
-    </header>
+                <div class="footer-social">
+                    <div>
+                        <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
 
-    <!-- Galería -->
-    <section id="galeria" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Galería de Imágenes</h2>
-            <div class="row g-4">
-                <!-- Card 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://placedog.net/400/300" class="card-img-top" alt="Perro 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Perro Feliz</h5>
-                            <p class="card-text">Un hermoso perro disfrutando del sol.</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Ver más</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal 1 -->
-                <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Perro Feliz</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://placedog.net/600/400" class="img-fluid" alt="Perro 1">
-                                <p class="mt-3">Un hermoso perro disfrutando de un día soleado en el parque.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Repetir para más perros -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://placedog.net/401/300" class="card-img-top" alt="Perro 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Perro Juguetón</h5>
-                            <p class="card-text">Listo para jugar con su pelota favorita.</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Ver más</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Perro Juguetón</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://placedog.net/601/400" class="img-fluid" alt="Perro 2">
-                                <p class="mt-3">Este perro no puede esperar para jugar contigo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://placedog.net/402/300" class="card-img-top" alt="Perro 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Perro Dormilón</h5>
-                            <p class="card-text">Nada como una buena siesta después de jugar.</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Ver más</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Perro Dormilón</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://placedog.net/602/400" class="img-fluid" alt="Perro 3">
-                                <p class="mt-3">El mejor descanso después de un día lleno de aventuras.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div style="padding: 10px;">
+                        <img style="width: 70px;" src="img/DATAWEB.jpg.crdownload" alt="">
+                      </div>
+                  </div>
                 </div>
             </div>
+          </div>
+
+          </div>
+    
         </div>
-    </section>
+      </footer>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Perros Felices. Todos los derechos reservados.</p>
-    </footer>
+      <!-- Botón de WhatsApp -->
+  <a href="https://wa.me/1234567890?text=¡Hola!%20Quisiera%20hacer%20una%20consulta." target="_blank" class="whatsapp-button" aria-label="Escríbenos por WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+    
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const prevButton = document.querySelector('.carousel-control.prev');
+        const nextButton = document.querySelector('.carousel-control.next');
+        const slideWidth = slides[0].getBoundingClientRect().width;
+    
+        let currentSlide = 0;
+    
+        // Configuración: mover el track al índice correcto
+        const moveToSlide = (currentIndex) => {
+          track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+        };
+    
+        // Función para avanzar al siguiente conjunto
+        const nextSlide = () => {
+          if (currentSlide < slides.length - 3) {
+            currentSlide++;
+          } else {
+            currentSlide = 0; // Reinicia al inicio
+          }
+          moveToSlide(currentSlide);
+        };
+    
+        // Función para retroceder al conjunto anterior
+        const prevSlide = () => {
+          if (currentSlide > 0) {
+            currentSlide--;
+          } else {
+            currentSlide = slides.length - 3; // Vuelve al final
+          }
+          moveToSlide(currentSlide);
+        };
+    
+        // Eventos para los botones
+        nextButton.addEventListener('click', nextSlide);
+        prevButton.addEventListener('click', prevSlide);
+    
+        // Cambio automático cada 10 segundos
+        setInterval(nextSlide, 1000000);
+      </script>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-2');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+
+
+    
 </body>
 </html>
-
