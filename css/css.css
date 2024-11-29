@@ -61,6 +61,13 @@ a:hover{
   padding: 13px 22px;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-virtual:hover {
+  background-color: #4a4a4a;
+
 }
 
 .img-fondo{

@@ -149,6 +149,7 @@
         transition: 0.3s;
         font-size: 15px;
         gap: 6px;
+        cursor: pointer;
     }
 
     .cajas-3 {
@@ -566,14 +567,24 @@
             width: 90%;
         }
 
+        .footer-social {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 10px;
+            flex-direction: column;
+            align-items: baseline;
+        }
+    }
+
         .carreras-titulo {
             width: 98%;
             height: 165px;
             border-radius: 20px;
             background-color: white;
-            display: flex
-    ;
+            display: flex;
             align-items: center;
+            flex-direction: column;
         }
 
         .subcontenedor-3-3 {
@@ -788,4 +799,124 @@
     .carreras {
         width: 400px;
     }
+}
+
+
+@media (max-width: 475px){
+    .carreras {
+        width: 363px;
+    }
+
+    .contenedor-3 {
+        margin-top: 750px;
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 365px) {
+
+    .carreras {
+        width: 350px;
+    }
+
+    .txt-carrera {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: #363434;
+        padding: 10px;
+    }
+
+    .contenedor-inicio {
+        width: 263px;
+        display: flex
+;
+        flex-direction: column;
+        gap: 20px;
+        top: 420px;
+        left: 25px;
+    }
+
+    .contenedor-3 {
+        margin-top: 750px;
+        padding: 20px;
+    }
+
+    .contenedor-inicio {
+        width: 263px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        top: 350px;
+        left: 25px;
+    }
+
+    .btn-cursos{
+        margin-top: 0px;
+    }
+
+    .img-fondo {
+        width: 100%;
+        height: 720px;
+        background-image: ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 55% 23%;
+        background-color: #d96102;
+    }
+
+    .txt-center {
+        text-align: center;
+        font-size: 26px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+
+    .caja1 {
+        padding: 10px 0px;
+        max-width: 315px;
+        width: 315px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja2 {
+        padding: 10px 0px;
+        max-width: 315px;
+        width: 315px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja3 {
+        padding: 10px 0px;
+        max-width: 315px;
+        width: 315px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt-2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #363434;
+    }
+
+    .contenedor-3 {
+        margin-top: 600px;
+        padding: 20px;
+    }
+
+    .gap-1 {
+        display: flex
+;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 55px;
+        margin-bottom: 45px;
+    }
+
+
 }
