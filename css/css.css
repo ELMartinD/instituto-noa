@@ -47,20 +47,20 @@ a:hover{
 }
 
 .nav-2 {
-    width: 69%;
-    display: flex;
-    gap: 35px;
-    align-items: center;
+  width: 69%;
+  display: flex;
+  gap: 33px;
+  align-items: center;
 }
 
 
-.btn-virtual{
-    background-color: #ff7615;
-    color: white;
-    border: none;
-    padding: 14px 22px;
-    font-size: 16px;
-    border-radius: 5px;
+.btn-virtual {
+  background-color: #ff7615;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 .img-fondo{
@@ -226,7 +226,7 @@ a:hover{
   .carousel-caption-bottom {
     position: absolute;
     bottom: 0px;
-    left: 20px;
+    left: 6px;
     color: WHITE;
     padding: 5px 10px;
     border-radius: 5px;
@@ -267,27 +267,33 @@ a:hover{
 
 
   .linear-gradient{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/programacion.jpg');
+    background-size: cover;
   }
 
   .linear-gradient-2{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/ciberseguridad.jpg');
+    background-size: cover;
   }
 
   .linear-gradient-3{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/moviles.jpg');
+    background-size: cover;
   }
 
   .linear-gradient-4{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/telecomunicaciones.webp');
+    background-size: cover;
   }
 
   .linear-gradient-5{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/disenografico.jpg');
+    background-size: cover;
   }
 
   .linear-gradient-6{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/marketing_digital-768x432.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(255, 255, 255, 0)), url('/img/inteligenciaartificial.jpg');
+    background-size: cover;
   }
   
 
