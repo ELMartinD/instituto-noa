@@ -810,6 +810,12 @@
     }
 }
 
+@media (max-width: 412px) {
+    .carreras {
+        width: 392px;
+    }
+}
+
 @media (max-width: 376px) {
 
     .carreras {
