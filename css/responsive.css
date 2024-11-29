@@ -603,7 +603,7 @@
             font-size: 24px;
             cursor: pointer;
             color: #fff;
-            background: orange;
+            background: #ff7615;
             padding: 5px 10px;
         }
   
@@ -740,12 +740,12 @@
         }
 
         .navegacion {
-            width: 96%;
+            width: 93%;
             display: flex
-        ;
+    ;
             align-items: center;
             height: 71px;
-            padding: 6px;
+            padding: 10px;
         }
 
         a.boton-nav {
