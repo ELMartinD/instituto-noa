@@ -540,6 +540,27 @@
 }   
 
     @media (max-width: 425px) {
+    
+
+        .caja1{
+            max-width: 280px;
+        }
+
+        .caja2{
+            max-width: 280px;
+        }
+
+        .caja3{
+            max-width: 280px;
+        }
+
+        .txt-center {
+            text-align: center;
+            font-size: 32px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            color: white;
+        }
 
         .nav-1{
             width: 90%;
@@ -547,12 +568,16 @@
 
         .carreras-titulo {
             width: 98%;
-            height: 110px;
+            height: 165px;
             border-radius: 20px;
             background-color: white;
             display: flex
     ;
             align-items: center;
+        }
+
+        .subcontenedor-3-3 {
+            display: none;
         }
 
         .carreras {
@@ -563,7 +588,7 @@
             font-size: 15px;
             color: #181818;
             font-family: "Noto Sans", sans-serif;
-            font-weight: 600;
+            font-weight: 700;
         }
 
 
