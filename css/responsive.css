@@ -776,9 +776,16 @@
             display: flex; 
             flex-direction: column;
         }
+
         
     
 
         
     
+}
+
+@media (max-width: 416px) {
+    .carreras {
+        width: 400px;
+    }
 }
