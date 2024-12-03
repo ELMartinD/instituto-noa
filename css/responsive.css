@@ -408,6 +408,17 @@
         width: 65%;
     }
 
+        .contenedor-inicio {
+        width: 600px;
+        height: 300px;
+        position: relative;
+        left: 120px;
+        top: 205px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+    }
+
     
 }
 
