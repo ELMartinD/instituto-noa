@@ -398,8 +398,14 @@
 
 @media (max-width:1366px) {
 
+        .nav-1 {
+        width: 32%;
+        margin: auto;
+        padding-left: 60px;
+    }
+
         .nav-2 {
-        width: 70%;
+        width: 65%;
     }
 
     
